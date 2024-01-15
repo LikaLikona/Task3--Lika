@@ -274,7 +274,8 @@ header .fa-bars{
     align-items: center;
 }
 .contact .row .form{
-    flex:1 1 40rem;
+    display: flex;
+    flex:1 1 10rem;
     padding: 2rem 2.5rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
     border:.1rem solid rgba(0,0,0,.1);
@@ -282,7 +283,8 @@ header .fa-bars{
     border-radius: .5rem;
 }
 .contact .row .image{
-    flex:1 1 40rem;
+    display: flex;
+    flex:1 1 10rem;
 }
 .contact .row .image img{
     width:100%;
@@ -310,15 +312,17 @@ header .fa-bars{
     gap:1.5rem;
 }
 .footer .box-container .box{
-    flex:a a 25rem;
+    flex:1 1 25rem;
 }
 .footer .box-container .box h3{
+    text-align: center;
     color:#333;
     font-size: 2.5rem;
     padding:1rem;
 }
 .footer .box-container .box a{
     display: block;
+    text-align: center;
     color:#666;
     font-size: 1.5rem;
     padding: 1rem 0;
@@ -339,8 +343,6 @@ header .fa-bars{
 .footer .credit span{
     color: var(--pink);
 }
-
-
 
 @media (max-width:991px){
     html{
